@@ -1,4 +1,8 @@
+.*.sw*
+Session.vim
+dbg-obj/
+.vscode/
+*.pyc
 .DS_Store
 .svn
 *~
-.*.swp
