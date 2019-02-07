@@ -21,3 +21,6 @@
 	ui = auto
 [push]
 	default = current
+
+[alias]
+	curbranch = rev-parse --abbrev-ref HEAD
