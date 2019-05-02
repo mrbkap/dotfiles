@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 export LESS='-FRSX'
 typeset -U path
-path=(/usr/local/bin $path ~/.cargo/bin)
+path=(~/bin /usr/local/bin $path ~/.cargo/bin)
 
 alias dirs='dirs -v'
+alias xiarestore='sudo xia restore --stdin-passphrase --no-confirmation-prompt --force-unmount-all <<< $(security find-generic-password -l xia-disk-password -w)'
