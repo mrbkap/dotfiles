@@ -1,6 +1,6 @@
 [user]
 	name = Blake Kaplan
-	email = mrbkap@gmail.com
+	email = bkaplan@apple.com
 
 [apply]
 	whitespace = strip
@@ -24,3 +24,4 @@
 
 [alias]
 	curbranch = rev-parse --abbrev-ref HEAD
+	glog = log --graph
