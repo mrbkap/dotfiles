@@ -47,6 +47,7 @@ endif
 if !empty(&viminfo)
   set viminfo^=!
 endif
+set exrc
 
 map <F1> <ESC>
 map! <F1> <ESC>
@@ -135,3 +136,5 @@ else
   set autoindent                " always set autoindenting on
 
 endif " has("autocmd")
+
+set secure
